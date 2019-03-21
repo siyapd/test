@@ -38,8 +38,11 @@ public class sports {
 		while(it.hasNext())
 		{
 			System.out.println(driver.switchTo().window(it.next()).getTitle());
+			//get the title of the url opened in seperate tab.
 		}
 		}
+		
+		
 		
 	}
 
